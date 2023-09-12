@@ -691,6 +691,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .time_items_50:last-child{
     border-right: 0px solid transparent;
 }
+@media(max-width:568px){
+    .time_title:nth-child(1){
+        width: 8%;
+    }
+    .time_title_c{
+        font-size: 13px;
+    }
+    .time_title{
+        line-height: 10px;
+    }
+    .time_day_box{
+        font-size: 10px;
+    }
+    .time_title:last-child{
+        width: 60%;
+    }
+}
 
 
 /* ----------------------------TABEL-------------------------- */
